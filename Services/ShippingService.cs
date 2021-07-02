@@ -47,35 +47,6 @@ namespace EcommerceVT.Services
             shipping.freteValor = doc.GetElementsByTagName("Valor").Item(0).InnerText;
             shipping.prazoEntrega = doc.GetElementsByTagName("PrazoEntrega").Item(0).InnerText; ;
 
-            // var ws = new ServiceCorreios.AtendeClienteClient();
-
-            //var param = new ServiceCorreios.calculaTarifaServico
-            //{
-            //    cepOrigem = zipCodeSender.ToString(),
-            //    cepDestino = zipCodeRecipient.ToString(),
-            //    peso = productWeight.ToString(),
-            //    altura = productheight,
-            //    comprimento = productLength,
-            //    largura = productWidth,
-            //    codFormato = 1,
-            //    codMaoPropria = "n",
-            //    valorDeclarado = productValue,
-            //    codAvisoRecebimento = "n",
-            //    codServico = "04510",
-            //    diametro = 0,
-            //    codAdministrativo = "17000190",
-            //    senha = "n5f9t8",
-            //    usuario = "sigep"
-            //};
-
-            //var resultado = await ws.calculaTarifaServicoAsync(param);
-
-            //var cep = new ServiceCorreios.consultaCEP();
-            //cep.cep = "38082038";
-            //var retorno = await ws.consultaCEPAsync(cep);
-
-
-
             return shipping;
         }
     }

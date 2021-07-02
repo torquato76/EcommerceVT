@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ijEJYniya9UYjRmV4uZ5oLMMJddlBPwOCCQPaNpwAaM+VNea5fzUvGdnZeNIcFJlQMUn+nYJ6rEQ7IJHReyyzA==",
+  "dgSpecHash": "3vRiClnrz14fuRnkkew/WrM7QEfjZyhJn+t4DA4i2uZSmlshTR+v01Kmhws2eaSrd7+KOa+Dx9rnZFEzCg6poA==",
   "success": true,
-  "projectFilePath": "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\EcommerceVT\\EcommerceVT.csproj",
+  "projectFilePath": "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\ecommercevt\\EcommerceVT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ernan\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\ernan\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.2.3\\fluentvalidation.aspnetcore.10.2.3.nupkg.sha512",

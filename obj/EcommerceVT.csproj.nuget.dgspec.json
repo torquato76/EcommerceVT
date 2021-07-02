@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\EcommerceVT\\EcommerceVT.csproj": {}
+    "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\ecommercevt\\EcommerceVT.csproj": {}
   },
   "projects": {
-    "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\EcommerceVT\\EcommerceVT.csproj": {
+    "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\ecommercevt\\EcommerceVT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\EcommerceVT\\EcommerceVT.csproj",
+        "projectUniqueName": "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\ecommercevt\\EcommerceVT.csproj",
         "projectName": "EcommerceVT",
-        "projectPath": "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\EcommerceVT\\EcommerceVT.csproj",
+        "projectPath": "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\ecommercevt\\EcommerceVT.csproj",
         "packagesPath": "C:\\Users\\ernan\\.nuget\\packages\\",
-        "outputPath": "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\EcommerceVT\\obj\\",
+        "outputPath": "C:\\inetpub\\wwwroot\\Vibbra\\EcommerceVT\\ecommercevt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ernan\\AppData\\Roaming\\NuGet\\NuGet.Config",
