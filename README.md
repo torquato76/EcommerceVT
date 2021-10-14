@@ -3,7 +3,7 @@
 **Teste de Backend Ecommerce Venda e Troca.**
 
 **Introdução**
-Projeto backend desenvolvido para como portfólio.
+Projeto backend desenvolvido como teste para plataforma freelance.
 
 Profissionais que atuam em uma rede de indicação de trabalhos freelance que precisam comprar, vender ou trocar produtos de tecnologia (notebooks, mouses, teclados, etc) que possibilitem a realização de seus trabalhos de forma rápida, otimizando seus custos com estruturas de trabalho.
 
