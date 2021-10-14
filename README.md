@@ -5,10 +5,7 @@
 **Introdução**
 Projeto backend desenvolvido como teste para plataforma freelance.
 
-Profissionais que atuam em uma rede de indicação de trabalhos freelance que precisam comprar, vender ou trocar produtos de tecnologia (notebooks, mouses, teclados, etc) que possibilitem a realização de seus trabalhos de forma rápida, otimizando seus custos com estruturas de trabalho.
-
 **Tecnologia Utilizada**
-
 
 - Asp.Net Core 5
 - Padrão MVC com uso de interface
