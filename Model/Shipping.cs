@@ -12,5 +12,5 @@ namespace EcommerceVT.Model
         public string prazoEntrega { get; set; }
         public string Erro { get; set; }
         public string MsgErro { get; set; }
-    }
+    }  
 }

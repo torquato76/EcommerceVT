@@ -2,6 +2,7 @@
 using EcommerceVT.Model;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 using System.Text;
@@ -48,6 +49,43 @@ namespace EcommerceVT.Services
             shipping.prazoEntrega = doc.GetElementsByTagName("PrazoEntrega").Item(0).InnerText; ;
 
             return shipping;
+        }
+
+
+        public async Task<List<Tracking>> Tracking(string codeTracking, string user, string password)
+        {
+            var ws = new serviceCorreiosRastreamento.ServiceClient();
+            List<string> list = new List<string>();
+
+            var param = new serviceCorreiosRastreamento.buscaEventosRequest{ 
+                objetos = codeTracking,
+                usuario = user,
+                senha = password,
+                tipo = "L",
+                resultado = "T",
+                lingua = "101"
+            };
+
+            var result = await ws.buscaEventosAsync(param);
+
+            var listTracking = new List<Tracking>();
+
+            if(result.@return.objeto != null)
+            {
+                foreach (var i in result.@return.objeto[0].evento)
+                    listTracking.Add(new Tracking
+                    {
+                        City = i.cidade,
+                        State = i.uf,
+                        Location = i.local,
+                        Date = i.data,
+                        Hour = i.hora,
+                        Description = i.descricao
+                    });
+            }
+
+
+            return listTracking;
         }
     }
 }

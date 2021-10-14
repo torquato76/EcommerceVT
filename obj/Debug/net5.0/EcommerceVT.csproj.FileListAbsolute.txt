@@ -67,3 +67,5 @@ C:\inetpub\wwwroot\Vibbra\EcommerceVT\EcommerceVT\obj\Debug\net5.0\EcommerceVT.d
 C:\inetpub\wwwroot\Vibbra\EcommerceVT\EcommerceVT\obj\Debug\net5.0\ref\EcommerceVT.dll
 C:\inetpub\wwwroot\Vibbra\EcommerceVT\EcommerceVT\obj\Debug\net5.0\EcommerceVT.pdb
 C:\inetpub\wwwroot\Vibbra\EcommerceVT\EcommerceVT\obj\Debug\net5.0\EcommerceVT.genruntimeconfig.cache
+C:\inetpub\wwwroot\Vibbra\EcommerceVT\ecommercevt\obj\Debug\net5.0\EcommerceVT.sourcelink.json
+C:\inetpub\wwwroot\Vibbra\EcommerceVT\ecommercevt\bin\Debug\net5.0\Connected Services\serviceCorreiosRastreamento\ConnectedService.json

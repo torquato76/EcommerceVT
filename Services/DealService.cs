@@ -1,12 +1,8 @@
 ﻿using EcommerceVT.Data;
 using EcommerceVT.Interface;
 using EcommerceVT.Model;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Threading.Tasks;
 
 namespace EcommerceVT.Services
@@ -14,14 +10,11 @@ namespace EcommerceVT.Services
     public class DealService : IDeal
     {
         private readonly AppDbContext _context;
-        public static IHostEnvironment _environment;
         private readonly IAuthenticate _authenticate;
 
-        public DealService(AppDbContext context, IHostEnvironment environment,
-               IAuthenticate authenticate)
+        public DealService(AppDbContext context,  IAuthenticate authenticate)
         {
             _context = context;
-            _environment = environment;
             _authenticate = authenticate;
         }
 
