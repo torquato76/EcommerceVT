@@ -8,7 +8,6 @@ Projeto backend desenvolvido como teste para plataforma freelance.
 **Tecnologia Utilizada**
 
 - Asp.Net Core 5
-- Padrão MVC com uso de interface
 - FlutenValidation
 - Jwt
 - Swanger
